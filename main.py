@@ -21,7 +21,7 @@ def send_text(message):
         bot.send_message(message.chat.id, 'Курс евро сегодня')
         bot.send_message(message.chat.id, 'Какая валюта интересует?', reply_markup=keyboard)
     elif message.text.lower() == 'rur':
-        bot.send_message(message.chat.id, 'курс рубля сегодня')
+        bot.send_message(message.chat.id, 'курс рубля сегодня составляет')
         bot.send_message(message.chat.id, 'Какая валюта интересует?', reply_markup=keyboard)
 
 
